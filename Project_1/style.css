@@ -1,0 +1,133 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height : 100%;
+    width : 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+}
+#btn1{
+    background-color: white;
+}
+#btn2{
+    background-color: orangered;
+    color: white;
+}
+#adv{
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-15deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-weight: 500;
+    font-size: 17px;
+}
+#btm-right{
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    font-weight: 500;
+    font-size: 17px;
+}
+#social-logos{
+    display: flex;
+}
+#instagram{
+   position: absolute;
+   right: 4%;
+   bottom: 10%;
+}
+#youtube{
+    position: absolute;
+    right: 7%;
+    bottom: 10%;
+ }
+ #facebook{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+ }
+ #arrow i{
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 18px;
+ }
